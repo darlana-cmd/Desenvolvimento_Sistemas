@@ -26,3 +26,428 @@
 ::1 - - [28/Apr/2026:21:32:16 -0300] "-" 408 -
 ::1 - - [28/Apr/2026:21:57:42 -0300] "GET /info.php HTTP/1.1" 200 10
 ::1 - - [28/Apr/2026:21:58:01 -0300] "-" 408 -
+::1 - - [29/Apr/2026:18:57:20 -0300] "GET / HTTP/1.1" 200 238
+::1 - - [29/Apr/2026:18:57:20 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:18:57:22 -0300] "GET /info.php HTTP/1.1" 200 10
+::1 - - [29/Apr/2026:18:57:40 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:00:06 -0300] "GET / HTTP/1.1" 200 238
+::1 - - [29/Apr/2026:19:00:26 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:00:38 -0300] "GET / HTTP/1.1" 200 662
+::1 - - [29/Apr/2026:19:00:40 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 1524
+::1 - - [29/Apr/2026:19:00:40 -0300] "GET /imagens/whats.png HTTP/1.1" 200 84292
+::1 - - [29/Apr/2026:19:00:40 -0300] "GET /imagens/facebook.png HTTP/1.1" 200 18599
+::1 - - [29/Apr/2026:19:02:37 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 1582
+::1 - - [29/Apr/2026:19:02:37 -0300] "GET /imagens/whats.png HTTP/1.1" 200 84292
+::1 - - [29/Apr/2026:19:02:37 -0300] "GET /imagens/facebook.png HTTP/1.1" 200 18599
+::1 - - [29/Apr/2026:19:02:37 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:03:11 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 1586
+::1 - - [29/Apr/2026:19:03:11 -0300] "GET /imagens/facebook.png HTTP/1.1" 200 18599
+::1 - - [29/Apr/2026:19:03:11 -0300] "GET /imagens/whats.png HTTP/1.1" 200 84292
+::1 - - [29/Apr/2026:19:03:11 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 206 4822572
+::1 - - [29/Apr/2026:19:03:11 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:03:25 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:03:25 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 206 2459535
+::1 - - [29/Apr/2026:19:05:23 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 1655
+::1 - - [29/Apr/2026:19:05:24 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:05:24 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:05:24 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:07:04 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2255
+::1 - - [29/Apr/2026:19:07:24 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:09:29 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2306
+::1 - - [29/Apr/2026:19:09:29 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:09:29 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:09:29 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:10:15 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2289
+::1 - - [29/Apr/2026:19:10:35 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:11:00 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2323
+::1 - - [29/Apr/2026:19:11:20 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:12:15 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2338
+::1 - - [29/Apr/2026:19:12:15 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:12:15 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:12:15 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:32 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2436
+::1 - - [29/Apr/2026:19:24:32 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:32 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:32 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:32 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 1566856
+::1 - - [29/Apr/2026:19:24:33 -0300] "GET /exploracao_completa.html HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:33 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 907755
+::1 - - [29/Apr/2026:19:24:37 -0300] "GET /exploracao_completa.html HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:37 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 659101
+::1 - - [29/Apr/2026:19:24:37 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 1566856
+::1 - - [29/Apr/2026:19:24:38 -0300] "GET /exploracao_completa.html HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:38 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 1566856
+::1 - - [29/Apr/2026:19:24:38 -0300] "GET /exploracao_completa.html HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:24:38 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 907755
+::1 - - [29/Apr/2026:19:24:58 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:25:19 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2445
+::1 - - [29/Apr/2026:19:25:19 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:25:19 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 707410
+::1 - - [29/Apr/2026:19:25:20 -0300] "GET /exploracao_completa.html HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:25:20 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 707410
+::1 - - [29/Apr/2026:19:25:40 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:27:57 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2508
+::1 - - [29/Apr/2026:19:27:57 -0300] "GET /www.google.com HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:27:57 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:27:57 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 703673
+::1 - - [29/Apr/2026:19:28:17 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:28:32 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2516
+::1 - - [29/Apr/2026:19:28:32 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:28:32 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:28:32 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:28:32 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:28:54 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2610
+::1 - - [29/Apr/2026:19:29:14 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:34:16 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2699
+::1 - - [29/Apr/2026:19:34:16 -0300] "GET /imagens/facebook.png HTTP/1.1" 200 18599
+::1 - - [29/Apr/2026:19:34:16 -0300] "GET /imagens/whats.png HTTP/1.1" 200 84292
+::1 - - [29/Apr/2026:19:34:16 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 1566856
+::1 - - [29/Apr/2026:19:34:16 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 206 4822572
+::1 - - [29/Apr/2026:19:34:16 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 200 104427
+::1 - - [29/Apr/2026:19:34:23 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:40:55 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2709
+::1 - - [29/Apr/2026:19:40:55 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:40:55 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:40:55 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:40:55 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:40:55 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:40:55 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 206 514540
+::1 - - [29/Apr/2026:19:41:40 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2741
+::1 - - [29/Apr/2026:19:41:40 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 206 2262926
+::1 - - [29/Apr/2026:19:42:00 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:42:44 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 2758
+::1 - - [29/Apr/2026:19:42:44 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:42:44 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 206 1676844
+::1 - - [29/Apr/2026:19:43:04 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:50:57 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 3040
+::1 - - [29/Apr/2026:19:50:58 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:50:58 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:50:58 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:50:58 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:50:58 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:50:58 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 200 42626
+::1 - - [29/Apr/2026:19:50:58 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:52:16 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 3039
+::1 - - [29/Apr/2026:19:52:16 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:52:16 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:52:36 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:53:34 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 3354
+::1 - - [29/Apr/2026:19:53:34 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:53:34 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:53:54 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:56:32 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 3978
+::1 - - [29/Apr/2026:19:56:32 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:56:32 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:56:32 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:56:52 -0300] "-" 408 -
+::1 - - [29/Apr/2026:19:57:30 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4144
+::1 - - [29/Apr/2026:19:57:30 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:57:30 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:57:30 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:57:30 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:57:30 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:57:30 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:59:16 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4123
+::1 - - [29/Apr/2026:19:59:16 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:19:59:16 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:19:59:16 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:00:58 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4148
+::1 - - [29/Apr/2026:20:00:58 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:00:58 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:00:58 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:00:58 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:01:18 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:03:58 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4340
+::1 - - [29/Apr/2026:20:03:58 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:03:58 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 200 31502
+::1 - - [29/Apr/2026:20:03:58 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:03:58 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:04:18 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:04:59 -0300] "GET /exploracao_completa.html HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:00 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:00 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:00 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:00 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:00 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:00 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:05:00 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:05:46 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4588
+::1 - - [29/Apr/2026:20:05:46 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:46 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:05:46 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:05:46 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:05:46 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 206 1611308
+::1 - - [29/Apr/2026:20:06:06 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:06:11 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4596
+::1 - - [29/Apr/2026:20:06:11 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:06:11 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:06:11 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:07:35 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4680
+::1 - - [29/Apr/2026:20:07:35 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:07:35 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:07:35 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:07:35 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:07:55 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:08:17 -0300] "GET /exploracao_completa.html HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:08:17 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:08:17 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:08:17 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:08:26 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4627
+::1 - - [29/Apr/2026:20:08:26 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:08:26 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:08:46 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4686
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:42:23 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:43:46 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4720
+::1 - - [29/Apr/2026:20:43:46 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:43:46 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:44:06 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:49:03 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4886
+::1 - - [29/Apr/2026:20:49:03 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:49:03 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:49:03 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:49:03 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:49:23 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:50:05 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4837
+::1 - - [29/Apr/2026:20:50:05 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:50:05 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:50:25 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:51:34 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4901
+::1 - - [29/Apr/2026:20:51:34 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:51:34 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:51:34 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:51:54 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:52:22 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4919
+::1 - - [29/Apr/2026:20:52:23 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:52:23 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:52:51 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4911
+::1 - - [29/Apr/2026:20:52:51 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:52:51 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:53:11 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:53:40 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 4913
+::1 - - [29/Apr/2026:20:53:40 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:53:40 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:54:00 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5032
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:55:55 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:56:53 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5085
+::1 - - [29/Apr/2026:20:56:53 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:56:53 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:57:13 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:57:18 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5097
+::1 - - [29/Apr/2026:20:57:18 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:57:18 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:57:38 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:57:59 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5110
+::1 - - [29/Apr/2026:20:57:59 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:57:59 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:58:09 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5111
+::1 - - [29/Apr/2026:20:58:09 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:58:09 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:58:29 -0300] "-" 408 -
+::1 - - [29/Apr/2026:20:59:06 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5124
+::1 - - [29/Apr/2026:20:59:06 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:59:06 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:20:59:26 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:00:09 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5149
+::1 - - [29/Apr/2026:21:00:09 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:00:09 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:00:29 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:00:58 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5182
+::1 - - [29/Apr/2026:21:00:58 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:00:58 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:00:58 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:01:18 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:01:28 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5184
+::1 - - [29/Apr/2026:21:01:28 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:01:28 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:01:28 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:01:48 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:06:09 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5232
+::1 - - [29/Apr/2026:21:06:09 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:06:09 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:06:09 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:06:29 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:06:51 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5248
+::1 - - [29/Apr/2026:21:06:51 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:06:51 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:07:11 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:07:45 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5255
+::1 - - [29/Apr/2026:21:07:45 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:07:45 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:07:45 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:08:05 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:11:21 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5423
+::1 - - [29/Apr/2026:21:11:22 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:11:22 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:11:22 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:11:22 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:11:22 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:11:22 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:12:10 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5482
+::1 - - [29/Apr/2026:21:12:10 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:12:10 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:12:30 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:16:21 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5558
+::1 - - [29/Apr/2026:21:16:21 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:16:21 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:16:21 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:16:21 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:16:41 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:17:09 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 5578
+::1 - - [29/Apr/2026:21:17:09 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:17:09 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:17:29 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:21:58 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 6325
+::1 - - [29/Apr/2026:21:21:58 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:21:58 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:22:18 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:22:56 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 6347
+::1 - - [29/Apr/2026:21:22:56 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:22:56 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:22:56 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:23:16 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:24:00 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 6361
+::1 - - [29/Apr/2026:21:24:00 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:24:00 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:24:00 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:24:20 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:24:39 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 6372
+::1 - - [29/Apr/2026:21:24:39 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:24:39 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:24:59 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:29:36 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7195
+::1 - - [29/Apr/2026:21:29:36 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:29:36 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:29:36 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:29:36 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:29:36 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:29:36 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:38:11 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7309
+::1 - - [29/Apr/2026:21:38:11 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:38:11 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:38:11 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:38:11 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:38:31 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:39:30 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7379
+::1 - - [29/Apr/2026:21:39:30 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:39:30 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:39:50 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:42:15 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7610
+::1 - - [29/Apr/2026:21:42:15 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:42:15 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:42:15 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:42:35 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:43:31 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7675
+::1 - - [29/Apr/2026:21:43:31 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:43:31 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:45:25 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7710
+::1 - - [29/Apr/2026:21:45:25 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:45:25 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:45:45 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:47:13 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7813
+::1 - - [29/Apr/2026:21:47:13 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:47:13 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:47:13 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:47:13 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:13 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:33 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:47:39 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7850
+::1 - - [29/Apr/2026:21:47:39 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:39 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:40 -0300] "GET /exploracao_completa.html? HTTP/1.1" 200 7850
+::1 - - [29/Apr/2026:21:47:41 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:41 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:45 -0300] "GET /exploracao_completa.html? HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:47:45 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:45 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:47:59 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:48:59 -0300] "GET /exploracao_completa.html? HTTP/1.1" 200 7907
+::1 - - [29/Apr/2026:21:48:59 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:48:59 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:48:59 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:06 -0300] "GET /exploracao_completa.html?nome= HTTP/1.1" 200 7907
+::1 - - [29/Apr/2026:21:49:06 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:06 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:21 -0300] "GET /exploracao_completa.html?nome=Darlana HTTP/1.1" 200 7907
+::1 - - [29/Apr/2026:21:49:21 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:21 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:41 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:49:54 -0300] "GET /exploracao_completa.html?nome=Darlana HTTP/1.1" 200 7921
+::1 - - [29/Apr/2026:21:49:54 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:54 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:58 -0300] "POST /exploracao_completa.html?nome=Darlana HTTP/1.1" 200 7921
+::1 - - [29/Apr/2026:21:49:58 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:49:58 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:50:01 -0300] "GET /exploracao_completa.html HTTP/1.1" 200 7921
+::1 - - [29/Apr/2026:21:50:01 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:50:01 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:50:11 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 7921
+::1 - - [29/Apr/2026:21:50:11 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:50:11 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:50:31 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:52:33 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 7950
+::1 - - [29/Apr/2026:21:52:33 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:52:33 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:52:33 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:52:53 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:53:29 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 7994
+::1 - - [29/Apr/2026:21:53:29 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:53:29 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:53:49 -0300] "-" 408 -
+::1 - - [29/Apr/2026:21:54:33 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8045
+::1 - - [29/Apr/2026:21:54:33 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:21:54:33 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:54:33 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:54:50 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8064
+::1 - - [29/Apr/2026:21:54:50 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:54:50 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:21:55:10 -0300] "-" 408 -
+::1 - - [29/Apr/2026:22:03:15 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8515
+::1 - - [29/Apr/2026:22:03:15 -0300] "GET /imagens/vorca-2-scaled-e1767922829627-1024x688-1-990x557.jpg.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:22:03:15 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:03:15 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:03:22 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8515
+::1 - - [29/Apr/2026:22:03:22 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:03:22 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:03:42 -0300] "-" 408 -
+::1 - - [29/Apr/2026:22:04:33 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8575
+::1 - - [29/Apr/2026:22:04:33 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:04:33 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:04:53 -0300] "-" 408 -
+::1 - - [29/Apr/2026:22:05:46 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8594
+::1 - - [29/Apr/2026:22:05:46 -0300] "GET /imagens/facebook.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:22:05:46 -0300] "GET /imagens/whats.png HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:22:05:46 -0300] "GET /imagens/videoplayback.mp4 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:22:05:46 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:05:46 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:06:06 -0300] "-" 408 -
+::1 - - [29/Apr/2026:22:06:16 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8608
+::1 - - [29/Apr/2026:22:06:16 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:06:16 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:06:36 -0300] "-" 408 -
+::1 - - [29/Apr/2026:22:07:46 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8653
+::1 - - [29/Apr/2026:22:07:46 -0300] "GET /imagens/20260423-mendonca-vorcaro-medico-960x592.webp HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:22:07:46 -0300] "GET /imagens/audio.mp3 HTTP/1.1" 304 -
+::1 - - [29/Apr/2026:22:07:46 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:07:46 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:08:05 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8649
+::1 - - [29/Apr/2026:22:08:05 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:08:05 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:08:07 -0300] "POST /exploracao_completa.html HTTP/1.1" 200 8649
+::1 - - [29/Apr/2026:22:08:07 -0300] "GET /arquivo.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:08:07 -0300] "GET /Atividade_02_HTML.pdf HTTP/1.1" 404 236
+::1 - - [29/Apr/2026:22:08:25 -0300] "-" 408 -

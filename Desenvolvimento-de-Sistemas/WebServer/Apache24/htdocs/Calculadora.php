@@ -1,19 +1,19 @@
 <?php
 
-    Class CalculadoraSimples
+    class CalculadoraSimples
     {
         private $a;
         private $b;
         private $resultado;
 
-        public function setSoma ($num1, $num2)
+        public function setSoma($num1, $num2)
         {
             $this->a = $num1;
             $this->b = $num2;
 
             $this->resultado = $num1 + $num2;
         }
-        public function setSubtracao ($num1, $num2)
+        public function setSubtracao($num1, $num2)
         {
             $this->resultado = $num1 - $num2;
         }
@@ -33,7 +33,7 @@
                     $this->resultado = $num1 / $num2;
                 }
         }
-        public function getResultado ()
+        public function getResultado()
         {
             return $this->resultado;
         }
@@ -49,7 +49,7 @@
     <title>Calculadora Online</title>
 </head>
 <body>
-    <form method="post" action="ContaBancaria.php">
+    <form method="post" action="Calculadora.php">
         <label>Digite um número:</label>   
         <input type="number" name="num1" require>
         <br/>
@@ -81,7 +81,7 @@
             {
                 echo $minhaConta->setSubtracao($_POST["num1"],$_POST["num2"]);
             }
-            if(isset($_POST["sacar"]))
+            if(isset($_POST["Divisão"]))
             {
                 echo $minhaConta->setMultiplicacao($_POST["num1"],$_POST["num2"]);
             }

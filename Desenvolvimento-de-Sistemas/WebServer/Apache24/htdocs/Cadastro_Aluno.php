@@ -14,7 +14,10 @@
         <label >E-mail:</label>
         <input type="email" name="email" placeholder="Digite o e-mail"/>
         <br/>
-        <input type="submit" name="cadastrar" velue="Cadastrar"/>
+        <input type="submit" name="cadastrar" value="Cadastrar"/>
+    </form>
+    <form method="post" action="Visualizar.php">
+        <input type="submit" name="listar" value="Listar" />
     </form>
     
 </body>

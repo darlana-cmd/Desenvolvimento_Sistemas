@@ -1,30 +1,45 @@
 <?php
+    
     class Aluno
     {
         private string $nome;
         private string $email;
 
-        public function Cadastrar_Aluno($nomeAluno, $emailAluno)
+        public function cadastrarAluno($nomeAluno, $emailAluno)
         {
             require_once("Conecte.php");
-            $obj = new Conecte ();
-            $pdo = $obj->ConectarBanco();
-
+            $obj = new Conecte();
+            $pdo = $obj->conectarBanco();
 
             $this->nome = $nomeAluno;
             $this->email = $emailAluno;
 
-            $sql = "INSERT INTO alunos (nome, email) VALUES (:nome, :email)";
+            $sql = "INSERT INTO alunos (nome, email) VALUES (:nome, :email);";
 
             $stmt = $pdo->prepare($sql);
-            $stmt->bindValue(':nome', $nomeAluno);
-            $stmt->bindValue(':email', $emailAluno);
+            $stmt->bindValue(':nome',$this->nome);
+            $stmt->bindValue(':email',$this->email);
 
+            if($stmt->execute())
+                return TRUE;
+            else
+                return FALSE;
+        }
+
+        public function listarAluno()
+        {
+            require_once("Conecte.php");
+            $obj = new Conecte();
+            $pdo = $obj->conectarBanco();
+
+            $sql = "SELECT * FROM alunos;";
+
+            $stmt = $pdo->prepare($sql);
             $stmt->execute();
 
-            return "Aluno Cadastrado com sucesso!";
+            $tuplas = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+            return $tuplas;
         }
-    
     }
 ?>

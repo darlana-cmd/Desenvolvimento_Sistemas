@@ -12,7 +12,7 @@
         {
             $this->host = "localhost";
             $this->dbname = "teste";
-            $this->password = "123456";
+            $this->password = "admin";
             $this->user = "postgres";
             $this->port = "5432";
         }
@@ -23,7 +23,7 @@
             {
                 $PDO = new PDO("pgsql:host=".$this->host.";port=".$this->port.";dbname=".$this->dbname,$this->user,$this->password);
                 
-                echo "Eu sou poderosa";
+                //echo "Eu sou poderosa";
                 return($PDO);
             }
             catch(PDOException $erro)

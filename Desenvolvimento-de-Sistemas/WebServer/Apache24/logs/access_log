@@ -955,3 +955,11 @@
 ::1 - - [17/May/2026:22:51:59 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
 ::1 - - [17/May/2026:22:51:59 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
 ::1 - - [17/May/2026:22:52:19 -0300] "-" 408 -
+::1 - - [19/May/2026:22:02:54 -0300] "GET / HTTP/1.1" 200 478
+::1 - - [19/May/2026:22:02:54 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [19/May/2026:22:02:57 -0300] "GET /Cadastro%20Produtos/ HTTP/1.1" 200 896
+::1 - - [19/May/2026:22:02:57 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 3840
+::1 - - [19/May/2026:22:03:11 -0300] "POST /Cadastro%20Produtos/ HTTP/1.1" 200 896
+::1 - - [19/May/2026:22:03:31 -0300] "-" 408 -
+::1 - - [19/May/2026:22:07:46 -0300] "POST /Cadastro%20Produtos/ HTTP/1.1" 200 920
+::1 - - [19/May/2026:22:08:06 -0300] "-" 408 -

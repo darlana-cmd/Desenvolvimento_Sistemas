@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CadastroProdutos.css">
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/image-removebg-preview.png" alt="">
+
+    </header>
+    <body>
+
+    <header>
+        <img src="imagens/image-removebg-preview.png" alt="">
+    </header>
+
+    <nav>
+
+        <h6>PRINCIPAL</h6>
+
+        <!-- MENU PRODUTOS -->
+        <div class="menu-produto">
+
+            <p>
+                <img src="imagens/produto.png" alt="">
+                Produtos
+            </p>
+
+            <div class="submenu">
+
+                <!-- CADASTRAR -->
+                <a href="PaginaInicial.html" class="link-menu">
+                    Cadastrar Produto
+                </a>
+
+                <!-- LISTAR -->
+                <form action="ListandoProdutos.php" method="post">
+
+                    <button type="submit" class="botao-menu">
+                        Listar Produtos
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- FORNECEDORES -->
+        <p>
+            <img src="imagens/fornecedor.png" alt="">
+            Fornecedores
+        </p>
+
+    </nav>
+
+    </form>
+    
+    <form action="SalvarProduto.php" method="post">
+
+        <h2>Cadastrar Produto:</h2>
+
+        <div class="informacao">
+
+            <div class="lado-esquerdo">
+                <label>Nome do produto:</label>
+                <input type="text" name="nome">
+            </div>
+
+            <div class="lado-direito">
+                <label>ID produto:</label>
+                <input type="number" name="id">
+            </div>
+
+            <div>
+                <label> Descrição:</label>
+                <textarea></textarea>
+            </div>
+
+        </div>
+
+        <div class="informacao2">
+            <div class="preco">
+                <label>Preço:</label>
+                <input type="number" name="preco">
+            </div>
+            <div class="quant">
+                <label>Quantidade:</label>
+                <input type="number" name="quant">
+            </div>
+        </div>
+        <button>Salvar</button>
+
+    </form>
+
+</body>
+
+</html>

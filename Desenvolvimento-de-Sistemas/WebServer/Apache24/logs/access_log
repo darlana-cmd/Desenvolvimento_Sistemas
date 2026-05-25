@@ -636,3 +636,322 @@
 ::1 - - [13/May/2026:21:50:15 -0300] "GET /Cadastro_Aluno.php HTTP/1.1" 200 763
 ::1 - - [13/May/2026:21:50:16 -0300] "POST /Visualizar.php HTTP/1.1" 200 850
 ::1 - - [13/May/2026:21:50:32 -0300] "-" 408 -
+::1 - - [17/May/2026:19:53:19 -0300] "GET / HTTP/1.1" 200 1570
+::1 - - [17/May/2026:19:53:20 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:19:53:25 -0300] "GET /info.php HTTP/1.1" 200 75207
+::1 - - [17/May/2026:19:53:40 -0300] "GET / HTTP/1.1" 200 1570
+::1 - - [17/May/2026:19:53:45 -0300] "GET /CadastroProdutos.html HTTP/1.1" 200 1530
+::1 - - [17/May/2026:19:53:45 -0300] "GET /imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:19:53:45 -0300] "GET /CadastroProdutos.css HTTP/1.1" 200 1143
+::1 - - [17/May/2026:19:53:45 -0300] "GET /imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:19:53:45 -0300] "GET /imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:19:53:50 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 447
+::1 - - [17/May/2026:19:54:10 -0300] "-" 408 -
+::1 - - [17/May/2026:19:55:39 -0300] "-" 408 -
+::1 - - [17/May/2026:19:55:39 -0300] "-" 408 -
+::1 - - [17/May/2026:19:55:53 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 454
+::1 - - [17/May/2026:19:56:13 -0300] "-" 408 -
+::1 - - [17/May/2026:20:04:01 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 454
+::1 - - [17/May/2026:20:04:06 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 454
+::1 - - [17/May/2026:20:04:26 -0300] "-" 408 -
+::1 - - [17/May/2026:20:06:16 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 454
+::1 - - [17/May/2026:20:06:36 -0300] "-" 408 -
+::1 - - [17/May/2026:20:12:16 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 463
+::1 - - [17/May/2026:20:12:36 -0300] "-" 408 -
+::1 - - [17/May/2026:20:12:52 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 463
+::1 - - [17/May/2026:20:13:12 -0300] "-" 408 -
+::1 - - [17/May/2026:20:15:24 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 463
+::1 - - [17/May/2026:20:15:44 -0300] "-" 408 -
+::1 - - [17/May/2026:20:16:14 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 463
+::1 - - [17/May/2026:20:16:34 -0300] "-" 408 -
+::1 - - [17/May/2026:20:16:44 -0300] "-" 408 -
+::1 - - [17/May/2026:20:17:27 -0300] "GET /CadastroProdutos.html HTTP/1.1" 200 1530
+::1 - - [17/May/2026:20:17:27 -0300] "GET /CadastroProdutos.css HTTP/1.1" 200 1143
+::1 - - [17/May/2026:20:17:27 -0300] "GET /imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:20:17:27 -0300] "GET /imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:20:17:27 -0300] "GET /imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:20:17:27 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:20:17:35 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 132
+::1 - - [17/May/2026:20:17:49 -0300] "GET /CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:20:18:09 -0300] "-" 408 -
+::1 - - [17/May/2026:20:18:17 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 466
+::1 - - [17/May/2026:20:18:37 -0300] "-" 408 -
+::1 - - [17/May/2026:20:18:59 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 148
+::1 - - [17/May/2026:20:21:20 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 466
+::1 - - [17/May/2026:20:21:40 -0300] "-" 408 -
+::1 - - [17/May/2026:20:23:22 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 600
+::1 - - [17/May/2026:20:23:22 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:20:23:42 -0300] "-" 408 -
+::1 - - [17/May/2026:20:24:22 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 600
+::1 - - [17/May/2026:20:24:22 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:20:24:42 -0300] "-" 408 -
+::1 - - [17/May/2026:20:26:59 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 600
+::1 - - [17/May/2026:20:27:19 -0300] "-" 408 -
+::1 - - [17/May/2026:20:29:14 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 84
+::1 - - [17/May/2026:20:29:34 -0300] "-" 408 -
+::1 - - [17/May/2026:20:30:10 -0300] "GET /CadastroProdutos.html HTTP/1.1" 200 1530
+::1 - - [17/May/2026:20:30:10 -0300] "GET /CadastroProdutos.css HTTP/1.1" 200 1143
+::1 - - [17/May/2026:20:30:10 -0300] "GET /imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:20:30:10 -0300] "GET /imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:20:30:10 -0300] "GET /imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:20:30:16 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 -
+::1 - - [17/May/2026:20:30:36 -0300] "-" 408 -
+::1 - - [17/May/2026:20:31:52 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 559
+::1 - - [17/May/2026:20:32:07 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 294
+::1 - - [17/May/2026:20:32:11 -0300] "GET /Cadastro_Aluno.php HTTP/1.1" 200 763
+::1 - - [17/May/2026:20:32:27 -0300] "-" 408 -
+::1 - - [17/May/2026:20:33:22 -0300] "GET /Cadastro_Aluno.php HTTP/1.1" 200 763
+::1 - - [17/May/2026:20:33:32 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 297
+::1 - - [17/May/2026:20:33:52 -0300] "-" 408 -
+::1 - - [17/May/2026:20:35:38 -0300] "POST /SalvarProduto.php HTTP/1.1" 200 297
+::1 - - [17/May/2026:20:35:58 -0300] "-" 408 -
+::1 - - [17/May/2026:20:58:07 -0300] "GET /CadastroProdutos.html HTTP/1.1" 404 236
+::1 - - [17/May/2026:20:58:10 -0300] "GET /CadastroProdutos.html HTTP/1.1" 404 236
+::1 - - [17/May/2026:20:58:18 -0300] "GET / HTTP/1.1" 200 520
+::1 - - [17/May/2026:20:58:20 -0300] "GET /Cadastro%20Produtos/ HTTP/1.1" 200 707
+::1 - - [17/May/2026:20:58:27 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1562
+::1 - - [17/May/2026:20:58:28 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1143
+::1 - - [17/May/2026:20:58:28 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:20:58:28 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:20:58:28 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:07 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1808
+::1 - - [17/May/2026:21:04:07 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:07 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:07 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:04:09 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:02 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1675
+::1 - - [17/May/2026:21:14:02 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:02 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:22 -0300] "-" 408 -
+::1 - - [17/May/2026:21:14:57 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:14:57 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:57 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:58 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:14:58 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:58 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:58 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:14:58 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:14:58 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:41:25 -0300] "GET / HTTP/1.1" 200 478
+::1 - - [17/May/2026:21:41:31 -0300] "GET / HTTP/1.1" 200 478
+::1 - - [17/May/2026:21:41:32 -0300] "GET /Cadastro%20Produtos/ HTTP/1.1" 200 870
+::1 - - [17/May/2026:21:41:32 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:21:41:32 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:21:41:32 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:21:41:44 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1851
+::1 - - [17/May/2026:21:41:56 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:42:09 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:42:19 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:42:39 -0300] "-" 408 -
+::1 - - [17/May/2026:21:43:59 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1848
+::1 - - [17/May/2026:21:44:03 -0300] "GET /Cadastro%20Produtos/ HTTP/1.1" 200 811
+::1 - - [17/May/2026:21:44:06 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:44:12 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 870
+::1 - - [17/May/2026:21:44:13 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:44:32 -0300] "-" 408 -
+::1 - - [17/May/2026:21:53:39 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:21:53:52 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.html HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:54:04 -0300] "-" 408 -
+::1 - - [17/May/2026:21:55:03 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.html HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:55:04 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.html HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:55:04 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.html HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:55:08 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.html HTTP/1.1" 404 236
+::1 - - [17/May/2026:21:55:23 -0300] "-" 408 -
+::1 - - [17/May/2026:22:00:59 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:01:01 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:01:19 -0300] "-" 408 -
+::1 - - [17/May/2026:22:01:26 -0300] "-" 408 -
+::1 - - [17/May/2026:22:01:57 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1870
+::1 - - [17/May/2026:22:01:58 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:01:58 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:01:58 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:01:59 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:01:59 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:02:05 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:02:06 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:02:06 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:02:25 -0300] "-" 408 -
+::1 - - [17/May/2026:22:03:40 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:03:51 -0300] "GET /Cadastro%20Produtos/ HTTP/1.1" 200 809
+::1 - - [17/May/2026:22:03:54 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:03:56 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:03:57 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:03:57 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:04:05 -0300] "-" 408 -
+::1 - - [17/May/2026:22:05:24 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:05:25 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:05:25 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:05:44 -0300] "-" 408 -
+::1 - - [17/May/2026:22:05:52 -0300] "-" 408 -
+::1 - - [17/May/2026:22:06:11 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:06:31 -0300] "-" 408 -
+::1 - - [17/May/2026:22:06:53 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:06:53 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:07:13 -0300] "-" 408 -
+::1 - - [17/May/2026:22:07:15 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:07:15 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:07:15 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:07:33 -0300] "-" 408 -
+::1 - - [17/May/2026:22:07:38 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:07:58 -0300] "-" 408 -
+::1 - - [17/May/2026:22:08:14 -0300] "GET / HTTP/1.1" 200 478
+::1 - - [17/May/2026:22:08:20 -0300] "GET /Cadastro%20Produtos/ HTTP/1.1" 200 809
+::1 - - [17/May/2026:22:08:40 -0300] "-" 408 -
+::1 - - [17/May/2026:22:08:46 -0300] "-" 408 -
+::1 - - [17/May/2026:22:08:52 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 890
+::1 - - [17/May/2026:22:08:52 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:22:08:52 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:22:08:52 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:22:08:52 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1938
+::1 - - [17/May/2026:22:08:53 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:09:01 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:09:01 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 890
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1938
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:22:09:19 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 890
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1938
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:22:09:19 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 890
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1938
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:22:09:19 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:22:09:19 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:09:20 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 890
+::1 - - [17/May/2026:22:09:20 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1938
+::1 - - [17/May/2026:22:09:20 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:22:09:20 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:22:09:20 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:22:09:20 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:09:32 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:09:32 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:09:52 -0300] "-" 408 -
+::1 - - [17/May/2026:22:10:07 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 896
+::1 - - [17/May/2026:22:10:07 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1938
+::1 - - [17/May/2026:22:10:07 -0300] "GET /Cadastro%20Produtos/imagens/image-removebg-preview.png HTTP/1.1" 200 13462
+::1 - - [17/May/2026:22:10:07 -0300] "GET /Cadastro%20Produtos/imagens/produto.png HTTP/1.1" 200 16623
+::1 - - [17/May/2026:22:10:07 -0300] "GET /Cadastro%20Produtos/imagens/fornecedor.png HTTP/1.1" 200 19963
+::1 - - [17/May/2026:22:10:07 -0300] "GET /favicon.ico HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:10:23 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:10:23 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:10:43 -0300] "-" 408 -
+::1 - - [17/May/2026:22:15:09 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1947
+::1 - - [17/May/2026:22:15:09 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:15:13 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:15:13 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:15:29 -0300] "-" 408 -
+::1 - - [17/May/2026:22:17:37 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:17:41 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 1989
+::1 - - [17/May/2026:22:17:43 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:17:47 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:17:52 -0300] "-" 408 -
+::1 - - [17/May/2026:22:18:40 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:18:46 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:19:06 -0300] "-" 408 -
+::1 - - [17/May/2026:22:24:37 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:24:40 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:24:57 -0300] "-" 408 -
+::1 - - [17/May/2026:22:25:20 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:25:40 -0300] "-" 408 -
+::1 - - [17/May/2026:22:25:46 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 373
+::1 - - [17/May/2026:22:26:06 -0300] "-" 408 -
+::1 - - [17/May/2026:22:26:50 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2193
+::1 - - [17/May/2026:22:26:50 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:27:07 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2193
+::1 - - [17/May/2026:22:27:27 -0300] "-" 408 -
+::1 - - [17/May/2026:22:27:51 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:27:51 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:27:55 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 999
+::1 - - [17/May/2026:22:27:57 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2193
+::1 - - [17/May/2026:22:28:06 -0300] "-" 408 -
+::1 - - [17/May/2026:22:29:15 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 1016
+::1 - - [17/May/2026:22:29:16 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:29:26 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:29:34 -0300] "GET /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 302 -
+::1 - - [17/May/2026:22:29:34 -0300] "GET /Cadastro%20Produtos/CadastroProduto.php HTTP/1.1" 404 236
+::1 - - [17/May/2026:22:29:53 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 1009
+::1 - - [17/May/2026:22:30:13 -0300] "-" 408 -
+::1 - - [17/May/2026:22:36:11 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 1278
+::1 - - [17/May/2026:22:36:11 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:36:15 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:36:18 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:36:22 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:36:31 -0300] "-" 408 -
+::1 - - [17/May/2026:22:37:24 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 200 1281
+::1 - - [17/May/2026:22:37:25 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 200 2368
+::1 - - [17/May/2026:22:37:44 -0300] "-" 408 -
+::1 - - [17/May/2026:22:38:46 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:38:46 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:38:50 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:39:06 -0300] "-" 408 -
+::1 - - [17/May/2026:22:40:14 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:14 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 1909
+::1 - - [17/May/2026:22:40:15 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:15 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:15 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:18 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2193
+::1 - - [17/May/2026:22:40:18 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:24 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2193
+::1 - - [17/May/2026:22:40:24 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:26 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2193
+::1 - - [17/May/2026:22:40:27 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:29 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2193
+::1 - - [17/May/2026:22:40:30 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:40:44 -0300] "-" 408 -
+::1 - - [17/May/2026:22:41:04 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2571
+::1 - - [17/May/2026:22:41:04 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:10 -0300] "GET /Cadastro%20Produtos/ HTTP/1.1" 200 809
+::1 - - [17/May/2026:22:41:12 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:12 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:15 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2571
+::1 - - [17/May/2026:22:41:19 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:19 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:21 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2571
+::1 - - [17/May/2026:22:41:27 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2571
+::1 - - [17/May/2026:22:41:27 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:47 -0300] "-" 408 -
+::1 - - [17/May/2026:22:41:59 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:59 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:41:59 -0300] "GET /Cadastro%20Produtos/PaginaInicial.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:42:01 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2571
+::1 - - [17/May/2026:22:42:19 -0300] "-" 408 -
+::1 - - [17/May/2026:22:42:48 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
+::1 - - [17/May/2026:22:42:48 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:42:50 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:42:51 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
+::1 - - [17/May/2026:22:43:08 -0300] "-" 408 -
+::1 - - [17/May/2026:22:49:51 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
+::1 - - [17/May/2026:22:49:51 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 200 2825
+::1 - - [17/May/2026:22:50:11 -0300] "-" 408 -
+::1 - - [17/May/2026:22:50:23 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.html HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:50:23 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:50:25 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
+::1 - - [17/May/2026:22:50:27 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:50:29 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
+::1 - - [17/May/2026:22:50:43 -0300] "-" 408 -
+::1 - - [17/May/2026:22:50:46 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
+::1 - - [17/May/2026:22:50:46 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:51:06 -0300] "-" 408 -
+::1 - - [17/May/2026:22:51:32 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:51:52 -0300] "-" 408 -
+::1 - - [17/May/2026:22:51:59 -0300] "POST /Cadastro%20Produtos/ListandoProdutos.php HTTP/1.1" 200 2574
+::1 - - [17/May/2026:22:51:59 -0300] "GET /Cadastro%20Produtos/CadastroProdutos.css HTTP/1.1" 304 -
+::1 - - [17/May/2026:22:52:19 -0300] "-" 408 -

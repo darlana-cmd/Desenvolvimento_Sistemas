@@ -1,0 +1,172 @@
+head{
+    background-color: rgb(236, 238, 238);
+}
+
+header img{
+    display: flex;
+    align-items: center;
+    gap:1px;
+    height: 50px;
+    width: 90px;
+}
+nav{
+    background-color: rgb(14, 14, 84);
+    margin-top: 20px;
+    width: 200px;      
+    height: 100vh;     
+    position: fixed;   /* fixa na tela */
+    left: 0;           /* lado esquerdo */
+    top: 50px;
+
+}
+nav p{
+    
+    color: rgb(150, 150, 150);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+nav p img{
+    
+    width: 20px;
+    height: 20px;
+}
+
+nav h6{
+    color: rgb(147, 147, 148);
+    gap: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    margin-left: 260px; /* empurra pro lado */
+    margin-top: 30px;
+    
+
+}
+
+.informacao,
+.informacao2{
+    display: flex;
+    gap: 30px;
+}
+
+.lado-esquerdo,
+.lado-direito,
+.preco,
+.quant{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 200px;
+}
+
+button{
+    background-color: rgb(5, 206, 19);
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 5px;
+   
+}
+/*Em baixo do produto aonde vai mostrar as outras opções do produto*/
+
+/* SUBMENU */
+.submenu{
+    display: none;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 8px;
+    gap: 10px;
+}
+
+/* MOSTRAR SUBMENU */
+.menu-produto:hover .submenu{
+    display: flex;
+}
+
+/* FORM */
+.submenu form{
+    margin: 0;
+}
+
+/* LINKS */
+.submenu a{
+    display: block;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* BOTÃO */
+.botao-menu{
+    background: none;
+    border: none;
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+    text-align: left;
+}
+
+/* HOVER */
+.submenu a:hover,
+.botao-menu:hover{
+    color: white;
+}
+
+
+table{
+    margin-left: 260px; /* deixa ao lado do menu */
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th{
+    background-color: rgb(14, 14, 84);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+table td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+table tr:hover{
+    background-color: rgb(230, 230, 250);
+}
+
+
+.voltar{
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+.voltar button{
+    background-color: rgb(14, 14, 84);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.voltar button:hover{
+    background-color: rgb(32, 32, 120);
+}
+
+/*Login*/

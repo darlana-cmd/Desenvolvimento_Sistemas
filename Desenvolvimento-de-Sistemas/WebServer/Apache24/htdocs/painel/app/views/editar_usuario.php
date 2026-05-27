@@ -1,4 +1,13 @@
 <?php
+    session_name("painel");
+    session_start();
+    
+    if(!isset($_SESSION["login"]))
+    {
+        echo '<script>
+                    window.location.href="http://localhost:8080/painel";
+                    </script>';
+    }
 
         $id= $_GET["var"];
  
@@ -38,6 +47,10 @@
             <button type="submit" name="acao" value="editar">
                 Atualizar
             </button>
+
+            <a href="listar_usuario.php" class="btn">
+                Voltar
+            </a>
 
         </form>
 

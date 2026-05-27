@@ -1,4 +1,14 @@
 <?php
+    session_name("painel");
+    session_start();
+    
+    if(!isset($_SESSION["login"]))
+    {
+        echo '<script>
+                    window.location.href="http://localhost:8080/painel";
+                    </script>';
+    }
+
  
         include_once("../models/User.php");
 
@@ -25,7 +35,7 @@
 
             <h1>Usuários</h1>
 
-            <a href="#" class="btn">
+            <a href="cadastrar_usuario.php" class="btn">
                 Novo Usuário
             </a>
 
@@ -53,16 +63,25 @@
                     <td><?= $usuarios["email"]?></td>
                     <td><?= $usuarios["ativo"]?></td>
                     <td><a href="editar_usuario.php?var=<?=$usuarios["id_usuarios"];?>" class="editar">Editar</a></td>
-                    <td><a href="#" class="excluir">Excluir</a></td>
+                    <td><a href="../controllers/excluir_usuario_controllers.php?var=<?=$usuarios["id_usuarios"];?>" class="excluir">Excluir</a></td>
                 </tr>
                     <?php endforeach?>
 
                 
             </tbody>
 
+        
+
         </table>
+        </br>
+
+            <a href="dashboard.php" class="btn">
+                Voltar
+            </a>
 
     </div>
+
+ 
 
 </body>
 </html>

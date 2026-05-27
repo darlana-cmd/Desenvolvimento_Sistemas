@@ -85,5 +85,40 @@
             }
         }
 
+        public function ExcluirUsuario($id_usuario)
+        {
+            $sql="DELETE FROM usuarios WHERE id_usuarios = :id;";
+            $stmt = $this->pdo->prepare($sql);
+            $stmt->bindParam(':id', $id_usuario);
+            if($stmt->execute())
+            {
+                echo '<script>
+                    alert("Usuário excluido com sucesso.");
+                    window.location.href="http://localhost:8080/painel/app/views/listar_usuario.php";
+                    </script>';
+            }
+            else{
+                echo "Erro";
+            }
+        }
+
+         public function CadastrarUsuario($email, $senha)
+        {
+            $sql="INSERT INTO usuarios (email, senha, ativo) VALUES (:email, :senha, 'true');";
+            $stmt = $this->pdo->prepare($sql);
+            $stmt->bindParam(':email', $email);
+            $stmt->bindParam(':senha', $senha);
+            if($stmt->execute())
+            {
+                echo '<script>
+                    alert("Usuário cadastrado com sucesso.");
+                    window.location.href="http://localhost:8080/painel/app/views/listar_usuario.php";
+                    </script>';
+            }
+            else{
+                echo "Erro";
+            }
+        }
+
     }
 ?>

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.login-img{
+    background-color: rgb(63, 63, 185);
+    width: 30%;
+    float: left;
+    height: 100vh;
+    color: rgb(244, 245, 247);
+    
+}
+
+
+.login{
+    background-color: rgb(254, 254, 255);
+    width: 70%;
+    float: left;
+    height: 100vh;
+    
+    
+}
+
+.meio{
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid #adadad;
+    border-radius: 6px;
+    width: 400px;
+    height: 500px;
+}
+
+button{
+     width:100px;
+    background:rgb(63, 63, 185);
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+input{
+     border: 1px solid #adadad;
+      border-radius: 3px;  
+}
+
+.tabela-login {
+    margin: 0 auto; 
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px; 
+    text-align: center;
+}

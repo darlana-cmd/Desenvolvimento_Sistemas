@@ -1,0 +1,134 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* ==========================================================================
+   LADO DIREITO: FORMULÁRIO
+   ========================================================================== */
+.form-side {
+    flex: 1.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.form-card {
+    width: 100%;
+    max-width: 440px;
+}
+
+.form-card h2 {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    margin-bottom: 24px;
+    line-height: 1.4;
+}
+
+/* Campos de entrada */
+.input-group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333333;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-group input::placeholder {
+    color: #a0aec0;
+}
+
+.input-group input:focus {
+    border-color: #3b42f1;
+}
+
+.helper-text {
+    font-size: 0.75rem;
+    color: #718096;
+    margin-top: 4px;
+}
+
+/* Botão */
+.btn-submit {
+    width: 100%;
+    background-color: #3b42f1;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #2a30cb;
+}
+
+/* Link de Login */
+.login-link {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.login-link a {
+    color: #3b42f1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade Básica para Telas Menores (Telas de Celular) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        margin: 20px;
+    }
+    .banner-side {
+        padding: 40px 20px;
+    }
+    .banner-side h1 {
+        font-size: 2.5rem;
+    }
+    .form-side {
+        padding: 40px 20px;
+    }
+}

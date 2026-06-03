@@ -1,5 +1,5 @@
 <?php
-    session_name("painel");
+    session_name("Agenda");
     session_start();
     
 
@@ -27,4 +27,14 @@
                 
         }
     }
+
+    if(isset($_POST["lembrar"]))
+        {
+            $valor = base64_encode($email);
+            $duracao = strtotime("+1 days");
+            setcookie("lembrar,$valor,$duracao");
+          
+        }
+
+        
 ?>

@@ -43,15 +43,215 @@ body{
 }
 
 .menu a.active {
-    background: #1e293b; /* Fundo cinza/azul destacado */
-    color: #ffffff; /* Texto totalmente branco */
+    background: #1e293b; 
+    color: #ffffff; 
 }
 
-/* Ajuste dos Ícones */
 .format-img{
     height: 20px;
     width: 20px;
     object-fit: contain;
     filter: brightness(0) invert(0.9); 
+}
+
+.conteudo{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+/* TOPO */
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    height: 60px;
+   
+}
+
+.caixa-busca{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 600px;
+    border: 1px solid #e5e7eb;
+    margin-left: 10px;
+
+}
+
+.caixa-busca input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+    background: transparent;
+    
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} 
+
+.usuario img{
+    height: 17px;
+    width: 17px;
+}
+
+.notificacao{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+}
+
+.foto-perfil{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+/* TEXTO */
+.principais{
+   margin-left: 20px;
+   
+}
+
+.principais h1{
+    font-size: 32px;
+    color: #1f2937;
+    width: 100%;
+}
+
+.principais p{
+    color: #6b7280;
+    margin-top: 5px;
+}
+
+
+.cards{
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    margin-top: 15px;
+}
+
+.card{
+    
+    border: 1px solid #c9c8c8;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 150px ;
+    width: 220px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    
+}
+
+.card-grande
+
+{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    margin-top: 15px;
+}
+
+
+.card2 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+     border: 1px solid #c9c8c8;
+}
+
+.compromisso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.compromisso h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.compromisso p {
+    margin: 4px 0 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.compromisso button {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reuniao {
+    background: #ede9fe;
+    color: #6d28d9;
+}
+
+.pessoal {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.trabalho {
+    background: #e0e7ff;
+    color: #4f46e5;
+}
+
+.card2 a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #4f46e5;
+}
+
+
+.contato{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contato img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contato h5{
+    margin: 0;
+    font-size: 16px;
+}
+
+.contato p{
+    margin: 4px 0 0;
+    color: #777;
+    font-size: 14px;
 }
 

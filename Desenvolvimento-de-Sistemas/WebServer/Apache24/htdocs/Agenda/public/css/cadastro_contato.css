@@ -1,0 +1,118 @@
+/* Configurações Globais (Reset) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container Principal */
+.container {
+  width: 100%;
+  max-width: 480px;
+  text-align: left;
+}
+
+/* Textos do Cabeçalho */
+.titulo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.subtitulo {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 32px;
+}
+
+/* Estrutura do Formulário */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campo-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Labels (Etiquetas) */
+.etiqueta {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Inputs de Texto */
+.campo-texto {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333333;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.campo-texto::placeholder {
+  color: #9ca3af;
+}
+
+.campo-texto:focus {
+  border-color: #3b82f6; /* Borda azul ao clicar */
+}
+
+/* Input de Arquivo (Foto) */
+.input-arquivo {
+  font-size: 14px;
+  color: #666666;
+  padding: 8px 0;
+}
+
+/* Botão Azul */
+.botao-cadastrar {
+  width: 100%;
+  background-color: #3b42f6; /* Azul idêntico ao da imagem */
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.botao-cadastrar:hover {
+  background-color: #252afc; /* Azul levemente mais escuro no hover */
+}
+
+/* Link de rodapé */
+.link-voltar {
+  display: block;
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-voltar:hover {
+  text-decoration: underline;
+}

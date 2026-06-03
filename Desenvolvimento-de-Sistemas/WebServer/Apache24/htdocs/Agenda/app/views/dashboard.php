@@ -18,26 +18,56 @@
         <a href="#"><img class="format-img" src="../..//public/img/SAIR.png" alt="">Sair</a>
     </nav>
 
-    <main class="conteudo">
-        <div class="topo">
-    <div class="caixa-busca">
-        <span class="lupa">🔍</span>
-        <input type="text" placeholder="Buscar contatos, compromissos...">
-    </div>
-    
-   <div class="topo">
-    <div class="usuario">
-        <div class="notificacao">
-            <img src="caminho_do_sino.png" alt="Sino">
+
+   <main class="conteudo">
+
+    <div class="topo">
+        <div class="caixa-busca">
+            <span class="lupa">🔍</span>
+            <input type="text" placeholder="Buscar contatos, compromissos...">
         </div>
-        <img class="foto-perfil" src="caminho_da_foto.png" alt="Foto">
+
+        <div class="usuario">
+            <div class="notificacao">
+                <img src="caminho_do_sino.png" alt="Sino">
+            </div>
+
+            <img class="foto-perfil" src="caminho_da_foto.png" alt="Foto">
+        </div>
     </div>
-</div>
-</div>
+
+    <div class="principais">
+        <h1>Olá, João! 👋</h1>
+        <p>Bem-vindo à sua agenda eletrônica.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Contatos</h3>
+                <h2>128</h2>
+                <p>Total de contatos</p>
+            </div>
+
+            <div class="card">
+                <h3>Compromissos</h3>
+                <h2>15</h2>
+                <p>Próximos 7 dias</p>
+            </div>
+
+            <div class="card">
+                <h3>Tarefas</h3>
+                <h2>8</h2>
+                <p>Pendentes</p>
+            </div>
+
+            <div class="card">
+                <h3>Concluídos</h3>
+                <h2>23</h2>
+                <p>Este mês</p>
+            </div>
+        </div>
     </div>
-        <h1>Página Principal</h1>
-        <p>Conteúdo da página.</p>
-    </main>
+
+</main>
 
 </body>
 </html>

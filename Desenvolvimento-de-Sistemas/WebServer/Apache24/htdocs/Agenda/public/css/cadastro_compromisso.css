@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #333;
+}
+
+.container {
+    width: 1400px;
+    margin: 40px auto;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #5b5ce2;
+    font-weight: 600;
+}
+
+h1 {
+    margin: 20px 0 30px;
+    font-size: 2rem;
+    color: #222;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.05);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dcdfe4;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: .2s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #5b5ce2;
+    box-shadow: 0 0 0 3px rgba(91,92,226,.15);
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.linha {
+    display: flex;
+    gap: 20px;
+}
+
+.linha .campo {
+    flex: 1;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cancelar {
+    background: #fff;
+    border: 1px solid #d1d5db;
+    color: #555;
+}
+
+.cancelar:hover {
+    background: #f3f4f6;
+}
+
+.salvar {
+    border: none;
+    background: #4f46e5;
+    color: white;
+}
+
+.salvar:hover {
+    background: #4338ca;
+}
+
+/* CARD RESUMO */
+
+.resumo h2 {
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.item {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 15px;
+}
+
+.status {
+    display: inline-block;
+    background: #fff4d6;
+    color: #a16207;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.descricao {
+    margin-top: 25px;
+    color: #666;
+    line-height: 1.6;
+}

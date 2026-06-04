@@ -1,3 +1,24 @@
+<?php
+    session_name("Agenda");
+    session_start();
+    
+    if(!isset($_SESSION["login"]))
+    {
+        echo '<script>
+                    window.location.href="http://localhost:8080/Agenda";
+                    </script>';
+    }
+
+ 
+        include_once("../models/Contato.php");
+
+        $obj = new Contato();
+        $resp = $obj->ListarTodosContatos();
+
+        
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -13,8 +34,8 @@
     <h2>Agenda</h2>
 
     <a href="dashboard.php"><img class="format-img" src="../..//public/img/casa.png" alt="">Dashboard</a>
-    <a href=""><img class="format-img" src="../..//public/img/contato.png" alt="">Contatos</a>
-    <a href="#"><img class="format-img" src="../..//public/img/calendario.png" alt="">Compromissos</a>
+    <a href="contatos.php"><img class="format-img" src="../..//public/img/contato.png" alt="">Contatos</a>
+    <a href="compromissos.php"><img class="format-img" src="../..//public/img/calendario.png" alt="">Compromissos</a>
     <a href="perfil.php"><img class="format-img" src="../..//public/img/user.png" alt="">Perfil</a>
     <a href="#"><img class="format-img" src="../..//public/img/configuracao.png" alt="">Configuração</a>
     <a href="#"><img class="format-img" src="../..//public/img/SAIR.png" alt="">Sair</a>
@@ -22,6 +43,7 @@
 
   <div class="caixa-principal">
 
+  
     <div class="topo">
       <h2>Contatos</h2>
       <div class="meio-topo">
@@ -33,6 +55,7 @@
     <table class="tabela">
       <thead>
         <tr>
+          <th>imagem</th>
           <th>Nome</th>
           <th>Telefone</th>
           <th>E-mail</th>
@@ -40,22 +63,19 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td class="perfil">
-            <img src="https://via.placeholder.com/40" class="foto">
-            <span>Maria Silva</span>
-          </td>
+       <?php foreach($resp as $usuarios):?>
+                <tr>
 
-          <td>
-           <button class="btn-editar">
-              <img src="../../public/img/remover.png" alt="Deletar">
-            </button>
+                  <td><img src="<?=$usuarios["url"];?>" class="img"/></td>
+                    
+                    <td><?= $usuarios["nome"]?></td>
+                    <td><?= $usuarios["telefone"]?></td>
+                    <td><?= $usuarios["email"]?></td>
+                    <td><a href="editar_contato.php?var=<?=$usuarios["id_contatos"];?>" class=".btn-editar">Editar</a></td>
+                    <td><a href="../controllers/excluir_contato.php?var=<?=$usuarios["id_contatos"];?>" class="btn-deletar">Excluir</a></td>
 
-            <button class="btn-deletar">
-              <img src="../../public/img/lixeira.png" alt="Deletar">
-            </button>
-          </td>
-        </tr>
+                </tr>
+                    <?php endforeach?>
         
       </tbody>
     </table>

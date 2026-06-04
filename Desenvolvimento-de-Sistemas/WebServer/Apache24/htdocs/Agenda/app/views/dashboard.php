@@ -1,3 +1,6 @@
+  <?php  session_name("Agenda");
+    session_start();
+    ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -14,7 +17,7 @@
 
         <a href="dashboard.php"><img class="format-img" src="../..//public/img/casa.png" alt="">Dashboard</a>
         <a href="contatos.php"><img class="format-img" src="../..//public/img/contato.png" alt="">Contatos</a>
-        <a href="#"><img class="format-img" src="../..//public/img/calendario.png" alt="">Compromissos</a>
+        <a href="compromissos.php"><img class="format-img" src="../..//public/img/calendario.png" alt="">Compromissos</a>
         <a href="perfil.php"><img class="format-img" src="../..//public/img/user.png" alt="">Perfil</a>
         <a href="#"><img class="format-img" src="../..//public/img/configuracao.png" alt="">Configuração</a>
         <a href="#"><img class="format-img" src="../..//public/img/SAIR.png" alt="">Sair</a>
@@ -39,8 +42,8 @@
         </div>
 
         <div class="principais">
-            <h1>Olá, João! 👋</h1>
-            <p>Bem-vindo à sua agenda eletrônica.</p>
+            <h1>Olá, <?= $_SESSION["nome"]; ?>! 👋</h1>
+             <p>Bem-vindo à sua agenda eletrônica.</p>
 
             <div class="cards">
                 <div class="card">

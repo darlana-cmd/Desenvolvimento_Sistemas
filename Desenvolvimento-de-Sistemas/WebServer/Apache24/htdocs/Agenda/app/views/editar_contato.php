@@ -9,11 +9,14 @@
                     </script>';
     }
 
+        $id=$_GET["var"];
  
         include_once("../models/Contato.php");
 
         $obj = new Contato();
-        $resp = $obj->ListarTodosContatos();
+        $resp = $obj->ListarUmContato($id);
+
+
 
         
 ?>
@@ -29,32 +32,36 @@
 <body>
 
   <div class="container">
-    <h1 class="titulo">Criar contato!</h1>
+    <h1 class="titulo">Alterar Contato!</h1>
     <p class="subtitulo">Preencha os dados abaixo para salvar o contato na sua agenda.</p>
 
-    <form class="formulario" action="../controllers/cadastrar_contato_controllers.php" method="POST">
+    <form class="formulario" action="../controllers/editar_contato.php" method="POST" enctype="multipart/form-data">
       
       <div class="campo-grupo">
         <label for="foto" class="etiqueta">Foto do contato</label>
-        <input type="file" id="foto" class="input-arquivo" accept="image/*">
+        <input type="file" id="foto" name="arquivo" class="input-arquivo" />
+      </div>
+
+       <div class="campo-grupo">
+        <input hidden="text" name="id" class="campo-texto" value="<?=$resp["id_contatos"];?>">
       </div>
 
       <div class="campo-grupo">
         <label for="nome" class="etiqueta">Nome completo</label>
-        <input type="text" name="nome" class="campo-texto" placeholder="Digite o nome completo">
+        <input type="text" name="nome" class="campo-texto" value="<?=$resp["nome"];?>">
       </div>
 
       <div class="campo-grupo">
         <label for="email" class="etiqueta">E-mail</label>
-        <input type="email" name="email" class="campo-texto" placeholder="exemplo@email.com">
+        <input type="email" name="email" class="campo-texto" value="<?=$resp["email"];?>">
       </div>
 
       <div class="campo-grupo">
         <label for="telefone" class="etiqueta">Telefone</label>
-        <input type="tel" name="telefone" class="campo-texto" placeholder="(00) 00000-0000">
+        <input type="tel" name="tel" class="campo-texto" value="<?=$resp["telefone"];?>">
       </div>
 
-      <button type="submit" class="botao-cadastrar">Cadastrar Contato</button>
+      <button type="submit" class="botao-cadastrar">Salvar alteração</button>
       
     </form>
     

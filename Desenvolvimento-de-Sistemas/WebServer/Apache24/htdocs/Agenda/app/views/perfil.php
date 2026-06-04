@@ -34,11 +34,11 @@
         <h2>Agenda</h2>
 
         <a href="dashboard.php"><img class="format-img" src="../..//public/img/casa.png" alt="">Dashboard</a>
-        <a href="contatos.php"><img class="format-img" src="../..//public/img/contato.png" alt="">Contatos</a>
-        <a href="compromissos.php"><img class="format-img" src="../..//public/img/calendario.png" alt="">Compromissos</a>
-        <a href="perfil.php"><img class="format-img" src="../..//public/img/user.png" alt="">Perfil</a>
-        <a href="#"><img class="format-img" src="../..//public/img/configuracao.png" alt="">Configuração</a>
-        <a href="#"><img class="format-img" src="../..//public/img/SAIR.png" alt="">Sair</a>
+    <a href="contatos.php"><img class="format-img" src="../..//public/img/contato.png" alt="">Contatos</a>
+    <a href="compromissos.php"><img class="format-img" src="../..//public/img/calendario.png" alt="">Compromissos</a>
+    <a href="perfil.php"><img class="format-img" src="../..//public/img/user.png" alt="">Perfil</a>
+    <a href="calendario.php"><img class="format-img" src="../..//public/img/configuracao.png" alt="">Agenda</a>
+    <a href="index.php"><img class="format-img" src="../..//public/img/SAIR.png" alt="">Sair</a>
     </nav>
 <div class="perfil-container">
 

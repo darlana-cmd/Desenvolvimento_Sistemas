@@ -1,41 +1,47 @@
 <?php
-class Compromisso
-{
+
+class Compromisso {
     private $pdo;
 
-    public function __construct()
-    {
+    public function __construct() {
         include_once("Connect.php");
-
         $conexao = new Connect();
         $this->pdo = $conexao->conectarBanco();
     }
 
-    public function CadastrarCompromisso( $titulo, $data, $hora, $local, $descricao)
-   
-    {
-        $sql = "INSERT INTO compromissos (titulo, data_compromisso, hora_compromisso, local_compromisso, descricao)
-        VALUES (:titulo, :data, :hora, :local, :descricao, :usuario)";
-
+    /**
+     * Busca todos os compromissos de um usuário específico
+     */
+    public function ListarCompromissosDoUsuario($id_usuario) {
+        $sql = "SELECT id_compromisso, titulo, data_compromisso, hora_compromisso, local_compromisso, descricao 
+                FROM compromissos 
+                WHERE id_usuario = :id_usuario 
+                ORDER BY data_compromisso ASC, hora_compromisso ASC";
+                
         $stmt = $this->pdo->prepare($sql);
+        $stmt->bindParam(':id_usuario', $id_usuario, PDO::PARAM_INT);
+        $stmt->execute();
+        
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    /**
+     * Insere um novo compromisso associado ao usuário logado
+     */
+    public function CadastrarCompromisso($titulo, $data_compromisso, $hora_compromisso, $local_compromisso, $descricao, $id_usuario) {
+        $sql = "INSERT INTO compromissos (titulo, data_compromisso, hora_compromisso, local_compromisso, descricao, id_usuario) 
+                VALUES (:titulo, :data_compromisso, :hora_compromisso, :local_compromisso, :descricao, :id_usuario)";
+                
+        $stmt = $this->pdo->prepare($sql);
+        
         $stmt->bindParam(':titulo', $titulo);
-        $stmt->bindParam(':data', $data);
-        $stmt->bindParam(':hora', $hora);
-        $stmt->bindParam(':local', $local);
+        $stmt->bindParam(':data_compromisso', $data_compromisso);
+        $stmt->bindParam(':hora_compromisso', $hora_compromisso);
+        $stmt->bindParam(':local_compromisso', $local_compromisso);
         $stmt->bindParam(':descricao', $descricao);
-
-
-        if($stmt->execute()) {
-            echo '<script>
-                alert("Compromisso cadastrado com sucesso");
-               window.location.href="http://localhost/Agenda/app/views/cadastro_compromisso.php";
-            </script>';
-        }
-        else {
-            echo "Compromisso não cadastrado... tente novamente.";
-        }
+        $stmt->bindParam(':id_usuario', $id_usuario, PDO::PARAM_INT);
+        
+        return $stmt->execute();
     }
-
-
-    }
+}
 ?>

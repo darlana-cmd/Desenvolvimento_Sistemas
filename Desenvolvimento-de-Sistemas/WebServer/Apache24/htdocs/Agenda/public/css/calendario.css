@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    display: flex; /* Cria o layout lado a lado: Menu na esquerda, Conteúdo na direita */
+    min-height: 100vh;
+}
+
+/* --- MENU LATERAL --- */
+.menu {
+    width: 260px;
+    background: #0f172a;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: fixed; /* Deixa o menu fixo na tela */
+    height: 100vh;
+}
+
+.menu h2 {
+    color: #f8fafc;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #94a3b8;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.menu a:hover, 
+.menu a.active {
+    background: #1e293b;
+    color: #ffffff;
+}
+
+.format-img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    filter: brightness(0) invert(0.9);
+}
+
+/* --- CONTEÚDO PRINCIPAL --- */
+.conteudo-principal {
+    flex: 1;
+    margin-left: 260px; /* Compensa a largura do menu fixo */
+    padding: 40px;
+    max-width: 1400px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #0f172a;
+}
+
+/* --- CALENDÁRIO --- */
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    background: #e2e8f0;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+}
+
+/* Cabeçalhos dos Dias da Semana */
+.cabecalho {
+    background: #f8fafc !important;
+    color: #64748b;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Células de Dias Gerais */
+.dia {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: transform 0.15s ease;
+}
+
+.dia:hover:not(.empty) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+}
+
+/* Dias vazios (início do mês) */
+.dia.empty {
+    background: #f8fafc;
+    border: none;
+}
+
+.numero {
+    font-weight: 700;
+    color: #64748b;
+    font-size: 14px;
+    align-self: flex-end; /* Joga o número do dia para o canto superior direito */
+}
+
+/* Card de Evento/Compromisso */
+.evento {
+    background: #e0f2fe; /* Azul claro suave */
+    color: #0369a1; /* Azul escuro para o texto */
+    padding: 6px 10px;
+    border-left: 4px solid #0284c7; /* Barrinha lateral elegante */
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.evento span {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #0284c7;
+    margin-bottom: 2px;
+}

@@ -1,74 +1,88 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte limpa parecida com a da imagem */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     display: flex;
-    min-height: 100vh; 
+    min-height: 100vh;
+    background-color: #f8fafc; /* Fundo cinza claro moderno para destacar os cards */
+    color: #1e293b;
 }
 
-.menu{
-    width: 250px;
-    background: #0f172a; /* Tom de azul bem escuro idêntico ao da imagem */
+/* --- MENU LATERAL --- */
+.menu {
+    width: 260px;
+    background: #0f172a;
     padding: 24px 16px;
     display: flex;
     flex-direction: column;
-    gap: 8px; /* Espaçamento vertical constante entre os itens */
+    gap: 8px;
+    position: fixed; /* Mantém o menu fixo enquanto a página rola */
+    height: 100vh;
+    z-index: 100;
 }
 
-/* Estilização dos Links do Menu */
-.menu a{
+.menu h2 {
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+}
+
+.menu a {
     display: flex;
-    align-items: center; /* Alinha o ícone e o texto perfeitamente no centro vertical */
-    gap: 16px; /* Espaço entre o ícone e o texto */
-    color: #94a3b8; /* Cor do texto levemente cinza/azulada para os itens inativos */
+    align-items: center;
+    gap: 16px;
+    color: #94a3b8;
     text-decoration: none;
     padding: 12px 16px;
-    border-radius: 12px; /* Cantos arredondados mais suaves como na foto */
+    border-radius: 12px;
     font-size: 15px;
     font-weight: 500;
-    transition: all 0.2s ease; /* Transição suave no hover */
+    transition: all 0.2s ease;
 }
 
-.menu h2{
-    color: azure;
-}
-
-.menu a:hover{
+.menu a:hover,
+.menu a.active {
     background: #1e293b;
     color: #ffffff;
 }
 
-.menu a.active {
-    background: #1e293b; 
-    color: #ffffff; 
-}
-
-.format-img{
+.format-img {
     height: 20px;
     width: 20px;
     object-fit: contain;
-    filter: brightness(0) invert(0.9); 
+    filter: brightness(0) invert(0.9);
 }
 
-
+/* --- ÁREA DE CONTEÚDO PRINCIPAL --- */
+.content {
+    flex: 1;
+    margin-left: 260px; /* Empurra o conteúdo para não ficar por baixo do menu fixo */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
 
 .container {
+    width: 100%;
     max-width: 1100px;
-    margin: auto;
     background: #fff;
-    padding: 25px;
+    padding: 30px;
     border-radius: 16px;
-    box-shadow: 0 2px 12px rgba(0,0,0,.05);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+    height: fit-content;
 }
 
+/* --- CABEÇALHO --- */
 .header h1 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #222;
+    color: #0f172a;
+    font-weight: 700;
 }
 
 .top-actions {
@@ -80,55 +94,71 @@ body{
 
 .search-box {
     flex: 1;
-    position: relative;
-}
-
-.search-box i {
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #999;
 }
 
 .search-box input {
     width: 100%;
     height: 46px;
-    border: 1px solid #e4e4e4;
+    border: 1px solid #e2e8f0;
     border-radius: 10px;
-    padding-left: 42px;
+    padding: 0 16px; /* Ajustado: removido padding excessivo na esquerda já que não há tag <i> interna */
+    font-size: 15px;
     outline: none;
+    transition: border-color 0.2s;
+    background: #f8fafc;
 }
 
+.search-box input:focus {
+    border-color: #4f46e5;
+    background: #fff;
+}
+
+/* Botão Novo Compromisso */
 .btn-new {
+    height: 46px;
     background: #4f46e5;
     color: white;
     border: none;
     border-radius: 10px;
-    padding: 0 20px;
+    padding: 0 24px;
     font-weight: 600;
+    font-size: 15px;
     cursor: pointer;
-    transition: .3s;
+    transition: background 0.2s;
+    display: inline-flex;
+    align-items: center;
 }
 
 .btn-new:hover {
     background: #4338ca;
 }
 
+.header a {
+    text-decoration: none;
+}
+
+/* --- ABAS (TABS) --- */
 .tabs {
     display: flex;
     gap: 15px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e2e8f0;
 }
 
 .tabs button {
     background: none;
     border: none;
-    padding: 12px 15px;
+    padding: 12px 8px;
     cursor: pointer;
-    color: #666;
-    font-weight: 500;
+    color: #64748b;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.tabs button:hover {
+    color: #4f46e5;
 }
 
 .tabs button.active {
@@ -136,114 +166,166 @@ body{
     border-bottom: 2px solid #4f46e5;
 }
 
+/* --- LISTA DE COMPROMISSOS --- */
 .appointments {
-    border: 1px solid #eee;
+    border: 1px solid #e2e8f0;
     border-radius: 12px;
     overflow: hidden;
+    background: #ffffff;
 }
 
 .appointment {
     display: grid;
-    grid-template-columns: 90px 1fr 120px 90px;
+    grid-template-columns: 80px 1fr 120px 90px;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.2s;
+}
+
+.appointment:hover {
+    background-color: #f8fafc; /* Efeito visual sutil ao passar o mouse */
 }
 
 .appointment:last-child {
     border-bottom: none;
 }
 
+/* Datas */
 .date {
     text-align: center;
+    border-right: 1px solid #e2e8f0;
+    padding-right: 15px;
 }
 
 .day {
     display: block;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
-    color: #222;
+    color: #0f172a;
+    line-height: 1;
 }
 
 .month {
-    font-size: 13px;
-    color: #666;
-    font-weight: 600;
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Informações do texto */
+.info {
+    padding-left: 20px;
 }
 
 .info h3 {
-    font-size: 17px;
-    color: #222;
-    margin-bottom: 5px;
+    font-size: 16px;
+    color: #0f172a;
+    margin-bottom: 4px;
+    font-weight: 600;
 }
 
 .info p {
-    color: #777;
+    color: #64748b;
     font-size: 14px;
 }
 
+/* Tags de Categorias */
 .tag {
     justify-self: start;
     padding: 6px 12px;
     border-radius: 8px;
     font-size: 13px;
     font-weight: 600;
+    text-align: center;
 }
 
-.reunion {
-    background: #dff7ef;
-    color: #2f9e78;
-}
+.reunion { background: #dff7ef; color: #2f9e78; }
+.personal { background: #e8f1fb; color: #4c7cb8; }
+.work { background: #ece9ff; color: #635bff; }
+.health { background: #fff0d8; color: #d99019; }
 
-.personal {
-    background: #e8f1fb;
-    color: #4c7cb8;
-}
-
-.work {
-    background: #ece9ff;
-    color: #635bff;
-}
-
-.health {
-    background: #fff0d8;
-    color: #d99019;
-}
-
+/* Botões de Ações */
 .actions {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     justify-content: flex-end;
 }
 
 .actions button {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 14px;
+    transition: transform 0.1s, background-color 0.2s;
+}
+
+.actions button:active {
+    transform: scale(0.95);
 }
 
 .edit {
     background: #eef0ff;
     color: #4f46e5;
 }
+.edit:hover {
+    background: #e0e4ff;
+}
 
 .delete {
     background: #ffe8e8;
     color: #ef4444;
 }
+.delete:hover {
+    background: #ffd4d4;
+}
 
+/* --- RESPONSIVIDADE --- */
 @media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 16px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px 10px;
+    }
 
     .top-actions {
         flex-direction: column;
+        gap: 12px;
+    }
+
+    .btn-new {
+        width: 100%;
+        justify-content: center;
     }
 
     .appointment {
         grid-template-columns: 1fr;
-        gap: 12px;
+        gap: 16px;
         text-align: center;
+        padding: 24px;
+    }
+
+    .date {
+        border-right: none;
+        padding-right: 0;
+        border-bottom: 1px solid #e2e8f0;
+        padding-bottom: 10px;
+    }
+
+    .info {
+        padding-left: 0;
     }
 
     .tag {
@@ -252,5 +334,6 @@ body{
 
     .actions {
         justify-content: center;
+        margin-top: 5px;
     }
 }
